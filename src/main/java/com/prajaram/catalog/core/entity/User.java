@@ -1,4 +1,4 @@
-package com.mcd.catalog.core.entity;
+package com.prajaram.catalog.core.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -32,6 +32,11 @@ public class User {
 
 	public void setName(String name) {
 		this.name = name;
+	}
+	
+	@Override
+	public String toString() {
+		return "{\"userId\":\""+getId()+"\",\"name\":\""+getName()+"\"}";
 	}
 
 }

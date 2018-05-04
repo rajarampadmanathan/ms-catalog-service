@@ -1,4 +1,4 @@
-package com.mcd.catalog.adaptor.rest.controller;
+package com.prajaram.catalog.adaptor.rest.controller;
 
 import org.springframework.web.bind.annotation.RestController;
 

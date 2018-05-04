@@ -1,4 +1,4 @@
-package com.mcd.catalog;
+package com.prajaram.catalog;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

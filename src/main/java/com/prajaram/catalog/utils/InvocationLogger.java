@@ -1,4 +1,4 @@
-package com.mcd.catalog.utils;
+package com.prajaram.catalog.utils;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
@@ -13,7 +13,7 @@ public class InvocationLogger {
 
 	Logger log = LoggerFactory.getLogger(InvocationLogger.class);
 
-	@Around(value = "execution( * com.mcd.catalog..*.*(..))")
+	@Around(value = "execution( * com.prajaram.catalog..*.*(..))")
 	public Object logBeforeInvocation(ProceedingJoinPoint jp) throws Throwable {
 		long time = System.currentTimeMillis();
 		Object obj = jp.proceed();

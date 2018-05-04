@@ -1,4 +1,4 @@
-package com.mcd.catalog.core.repository;
+package com.prajaram.catalog.core.repository;
 
 import org.springframework.stereotype.Repository;
 
